@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.globalStyle {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.row {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.hourAvailable {
+  border-radius: 1em;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(146, 221, 136);
+}
+
+.hourUnavailable {
+  border-radius: 1em;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(114, 114, 114);
+}
